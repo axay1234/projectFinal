@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Transformer 3",
+      "imagePath": "https://i.pinimg.com/originals/7b/0c/98/7b0c981def78cc19f53414475b62be40.jpg",
+      "director": "Michael Bay, Travis Knight",
+      "trailer": "kHRf01Gjosk",
+      "description": "Transformers is a series of American science fiction action films based on the franchise of the same name begun in the 1980s. ",
+      "showTime":"[10:00AM, 2:45PM]"
+    },
+    {
+      "id": 2,
+      "name": "Iorn Man 3",
+      "imagePath": "https://images8.alphacoders.com/378/thumb-1920-378546.jpg",
+      "director": "Shane Black",
+      "trailer": "oYSD2VQagc4",
+      "description": "The film was directed by Shane Black from a screenplay he co-wrote with Drew Pearce, and stars Robert Downey Jr. as Tony Stark / Iron Man, alongside Gwyneth Paltrow, Don Cheadle, Guy Pearce, Rebecca Hall, Stéphanie Szostak, James Badge Dale, Jon Favreau, and Ben Kingsley. ",
+      "showTime":"[10:00AM, 2:45PM]"
+    },
+    {
+      "id": 3,
+      "name": "Gold",
+      "imagePath": "http://media1.santabanta.com/full1/Bollywood%20Movies/Gold/gold-2a.jpg",
+      "director": "Reema Kagti",
+      "trailer": "Pcv0aoOlsLM", 
+      "description": "After India's independence, a drunk Indian Hockey Team Manager (pre-independence), Tapan Das (Akshay Kumar), holds aspirations of playing hockey as a free country, coaching a novice hockey team to earn independent India's first Olympic gold medal.",
+      "showTime":"[10:00AM, 2:45PM]"
+    },
+    {
+      "id": 4,
+      "name": "Parmanu: The Story of Pokhran",
+      "imagePath": "http://hdpicswale.in/assets/upload/bollywood-wallpapers/john-abraham-988/salute-photos-of-john-abraham-from-parmanu-movie-15929.jpeg",
+      "director": "abcd",
+      "trailer": "qN_9DnBh3hM",
+      "description": "The movie starts in 1995, when China had already completed 43 nuclear tests while India was still at 1 peaceful nuclear test in 1974 and is under immense pressure from other nuclear countries and rival neighbours Pakistan and China.",
+      "showTime":"[10:00AM, 2:45PM]"
+    }
+  ],
+  "theater": [
+    {
+      "id": 1,
+      "name": "rugal",
+      "place": "Boston"
+    },
+    {
+      "id": 2,
+      "name": "Rgal",
+      "place": "New Jersey"
+    }
+  ]
+}

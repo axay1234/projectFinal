@@ -1,0 +1,57 @@
+<p>
+    registeration works!
+</p>
+
+<form [formGroup]="signUpForm" (ngSubmit)="submitRegistrationForm()">
+    <div class="card text-center">
+        <div class="card-header">
+            Registration Form
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    Username : <input type="text" name="username" formControlName="username">
+
+                </div>
+                <br><br>
+                <!-- <div *ngIf="username.touched && username.invalid">
+                    <div *ngIf="username.errors.required" class="alert alert-danger" role="alert">
+                        Username is required
+                    </div>
+                    <div *ngIf="username.errors.invalidUsernameSize" class="alert alert-danger" role="alert">
+                        Username should be greater that 5 character
+                    </div>
+                    <div *ngIf="username.errors.usernameNotAvailable" class="alert alert-danger" role="alert">
+                        Username is not available
+                    </div>
+                </div> -->
+                
+            </div>
+            <div class="col">
+                Password : <input type="password" name="p" formControlName="password"><br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Email ID : <input type="email" name="Email" formControlName="emailID"><br><br>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="card-footer">
+        <button type="submit" [disabled]="signUpForm.invalid"  class="btn btn-success float-center">Submit</button>
+        <!-- <button (click)="updateForm()" class="btn btn-success">Update</button>
+            <button (click)="addAFormCOntrol()" type="button" class="btn btn-success float-right">Add Fname</button>
+             -->
+    </div>
+
+</form>
+
+<div class="card">
+    <div class="card-body">
+        {{signUpForm.value | json}} <br>
+        <i>{{signUpForm.status}}</i>
+    </div>
+</div>
